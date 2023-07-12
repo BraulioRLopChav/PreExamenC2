@@ -7,8 +7,7 @@ import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.pre_examen.modelo.Usuario;
-import com.example.pre_examen.modelo.UsuariosDb;
+import com.example.preexamen9_3c2.modelo.UsuariosDb;
 
 import java.util.List;
 
