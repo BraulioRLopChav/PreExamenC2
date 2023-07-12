@@ -49,15 +49,16 @@
             android:hint="Contraseña"
             android:textSize="16sp"
             android:layout_marginTop="16dp"
-            />
+            android:inputType="textPassword"/>
         <EditText
             android:id="@+id/txtContraRep"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Repite Contraseña"
+            android:hint="Reescriba la Contraseña"
             android:textSize="16sp"
             android:layout_marginTop="16dp"
-            android:layout_marginBottom="32dp"/>
+            android:layout_marginBottom="32dp"
+            android:inputType="textPassword"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,18 +70,16 @@
                 android:id="@+id/btnRegresar"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:text="Regresar"
                 android:textColor="#FFFFFF"
-                android:background="@drawable/circle_button_background"
+                android:background="@drawable/regresarflecha"
                 android:layout_marginEnd="16dp" />
 
             <Button
                 android:id="@+id/btnRegistro"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:text="Registrarse"
                 android:textColor="#FFFFFF"
-                android:background="@drawable/circle_button_background"
+                android:background="@drawable/agregarnegro"
                 android:layout_marginStart="16dp" />
 
         </LinearLayout>

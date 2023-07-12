@@ -19,7 +19,7 @@ public class UsuarioDbHelper extends SQLiteOpenHelper {
     private static final String SQL_DELETE_USUARIO = "DROP TABLE IF EXISTS " +
             DefineTable.Usuarios.TABLE_NAME;
 
-    private static final String DATABASE_NAME = "usuarios2.db";
+    private static final String DATABASE_NAME = "usuarios.db";
     private static final int DATABASE_VERSION = 1;
 
     public UsuarioDbHelper(Context context){
