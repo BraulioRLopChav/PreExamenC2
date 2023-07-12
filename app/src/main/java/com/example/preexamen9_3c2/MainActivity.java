@@ -9,7 +9,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.pre_examen.modelo.UsuariosDb;
+import com.example.preexamen9_3c2.modelo.UsuariosDb;
+import com.example.preexamen9_3c2.modelo.UsuariosDb;
 
 public class MainActivity extends AppCompatActivity {
 
