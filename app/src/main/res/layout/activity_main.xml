@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -18,8 +19,7 @@
             android:text="Empresas Industriales de México"
             android:textAlignment="center"
             android:textSize="24sp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -31,9 +31,10 @@
             android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Correo electronico"
+            android:hint="Correo electrónico"
             android:textSize="16sp"
-            android:layout_marginTop="64dp"/>
+            android:layout_marginTop="64dp" />
+
         <EditText
             android:id="@+id/txtContra"
             android:layout_width="match_parent"
@@ -47,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp">
+
             <Button
                 android:id="@+id/btnIngresar"
                 android:layout_width="wrap_content"
@@ -55,7 +57,8 @@
                 android:backgroundTint="#182259"
                 android:layout_weight="1"
                 android:textColor="#FFF"
-                android:layout_marginRight="20dp"/>
+                android:layout_marginRight="20dp" />
+
             <Button
                 android:id="@+id/btnRegistrarse"
                 android:backgroundTint="#182259"
@@ -63,8 +66,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Registrarse"
-                android:layout_weight="1"/>
+                android:layout_weight="1" />
+
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir"
+            android:backgroundTint="#0C1232"
+            android:textColor="#FFF"
+            android:layout_marginTop="10dp" />
 
     </LinearLayout>
 
